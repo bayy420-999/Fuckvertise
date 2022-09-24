@@ -1,0 +1,1 @@
+from Fuckvertise.api import Fuckvertise
