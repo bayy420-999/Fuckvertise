@@ -51,7 +51,7 @@ $ Fuckvertise -b batch.txt -o result1.txt -v
 - As API
 ```
 Class:
-`Fuckverse`       -> Argument: `verbose` (optional)
+`Fuckvertise`     -> Argument: `verbose` (optional)
                   -> Use     : `bypass.vip` wrapper API
 
 Method:
