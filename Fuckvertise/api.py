@@ -20,7 +20,7 @@ class Fuckvertise:
     def get_direct_link(self, datas = None):
         if datas:
             self.datas = datas
- 
+
         for data in self.datas:
             try:
                 res = self.session.post(self.url, f'url={urllib.parse.quote(data)}').json()
@@ -47,7 +47,7 @@ class Fuckvertise:
                 s += f"{result['destination']}\n"
             else:
                 failed += 1
-  
+
         with open(f'{filename}', 'w') as outfile:
             outfile.write(s)
 
